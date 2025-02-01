@@ -1,0 +1,14 @@
+{
+    "dateWiseClicks": [
+      { "date": "21-01-25", "count": 1234 },
+      { "date": "20-01-25", "count": 1140 },
+      { "date": "19-01-25", "count": 134 },
+      { "date": "18-01-25", "count": 34 }
+    ],
+    "deviceClicks": [
+      { "type": "Mobile", "count": 134 },
+      { "type": "Desktop", "count": 40 },
+      { "type": "Tablet", "count": 3 }
+    ]
+  }
+  

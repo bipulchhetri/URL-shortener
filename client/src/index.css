@@ -1,0 +1,19 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+

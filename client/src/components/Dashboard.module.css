@@ -1,0 +1,48 @@
+.dashboard {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  padding: 1.5rem;
+  margin-top: 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.createButton {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createButton:hover {
+  background: #0056b3;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.summary {
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+

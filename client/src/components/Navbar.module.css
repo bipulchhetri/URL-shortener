@@ -1,0 +1,105 @@
+/* Navbar.module.css */
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Logo Section */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    /* background-image: url("https://import.cdn.thinkific.com/778380/courses/2237475/UdVk2QQLQsCI5MrFx8iw_Cuvette%20wordmark.png"); */
+  }
+  
+  .logo span {
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Button Section */
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .signupButton,
+  .loginButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Signup Button Styling */
+  .signupButton {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .signupButton:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Login Button Styling */
+  .loginButton {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .loginButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hamburger Icon */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.4rem;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .buttons {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      display: none;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem 0;
+    }
+  
+    .buttons.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "date": "Jan 16, 2025 16:30",
+      "originalLink": "https://www.example.com",
+      "shortLink": "https://short.ly/abc",
+      "remarks": "campaign1",
+      "clicks": 5,
+      "status": "Active"
+    },
+    {
+      "date": "Jan 16, 2025 09:45",
+      "originalLink": "https://www.example.com",
+      "shortLink": "https://short.ly/def",
+      "remarks": "campaign2",
+      "clicks": 5,
+      "status": "Inactive"
+    },
+    {
+      "date": "Jan 16, 2025 07:43",
+      "originalLink": "https://www.example.com",
+      "shortLink": "https://short.ly/ghi",
+      "remarks": "campaign3",
+      "clicks": 5,
+      "status": "Inactive"
+    }
+  ]
+  
