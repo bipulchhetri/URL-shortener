@@ -132,13 +132,13 @@ const LinkTable = () => {
 
   useEffect(() => {
     // Fetch links from the API
-    axios.get("http://localhost:5001/api/links")
+    axios.get("https://url-shortener-sgf1.onrender.com/api/links")
       .then((response) => setLinks(response.data))
       .catch((error) => console.error("Error fetching links:", error));
   }, []);
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:5001/api/links/${id}`)
+    axios.delete(`https://url-shortener-sgf1.onrender.com/api/links/${id}`)
       .then(() => setLinks((prevLinks) => prevLinks.filter((link) => link.id !== id)))
       .catch((error) => console.error("Error deleting link:", error));
   };
