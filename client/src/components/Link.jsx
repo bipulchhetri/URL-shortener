@@ -194,7 +194,7 @@ const LinkTable = () => {
               </a>
             </td>
             <td>
-              <a href={`http://localhost:4000/${link.shortUrl}`} target="_blank" rel="noopener noreferrer">
+              <a href={`https://url-shortener-sgf1.onrender.com/${link.shortUrl}`} target="_blank" rel="noopener noreferrer">
                 {link.shortUrl}
               </a>
             </td>

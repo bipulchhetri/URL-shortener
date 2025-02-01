@@ -13,7 +13,7 @@ const Dashboard = () => {
 
   // Fetch data from backend
   useEffect(() => {
-    fetch("http://localhost:5001/dashboard")
+    fetch("https://url-shortener-sgf1.onrender.com/dashboard")
       .then((res) => res.json())
       .then((result) => setData(result))
       .catch((err) => console.error(err));

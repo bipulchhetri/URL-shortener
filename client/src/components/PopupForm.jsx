@@ -131,7 +131,7 @@ const PopupForm = ({ closeForm }) => {
     };
 
     try {
-      const response = await axios.post('http://localhost:5001/api/links/create', formData);
+      const response = await axios.post('https://url-shortener-sgf1.onrender.com/api/links/create', formData);
       console.log('Link created:', response.data);
       alert('Link created successfully!');
       closeForm(); // Close the form after successful submission
